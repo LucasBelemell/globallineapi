@@ -13,7 +13,7 @@ app.post("/submit", (req, res) => {
     res.status(200).send("Dados recebidos com successo!") 
 })
 
-const PORT = 8080;
+const PORT = 3000;
 
 app.listen(PORT, () => {
     console.log("Server Running"); 
